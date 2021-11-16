@@ -1,0 +1,21 @@
+<svg id="Menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="20" viewBox="0 0 18 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="18" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grille_de_répétition_18" data-name="Grille de répétition 18" clip-path="url(#clip-path)">
+    <g transform="translate(-323 -97)">
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="2" cy="2" r="2" transform="translate(324 98)"/>
+    </g>
+    <g transform="translate(-311 -97)">
+      <circle id="Ellipse_86-2" data-name="Ellipse 86" cx="2" cy="2" r="2" transform="translate(324 98)"/>
+    </g>
+    <g transform="translate(-323 -85)">
+      <circle id="Ellipse_86-3" data-name="Ellipse 86" cx="2" cy="2" r="2" transform="translate(324 98)"/>
+    </g>
+    <g transform="translate(-311 -85)">
+      <circle id="Ellipse_86-4" data-name="Ellipse 86" cx="2" cy="2" r="2" transform="translate(324 98)"/>
+    </g>
+  </g>
+</svg>

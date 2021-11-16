@@ -1,0 +1,10 @@
+<svg id="Search" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="30" height="30" fill="rgba(255,255,255,0)"/>
+  <g id="Groupe_3" data-name="Groupe 3" transform="translate(3.832 4.178)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 11.25) rotate(-45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <circle cx="7.955" cy="7.955" r="7.955" stroke="none"/>
+      <circle cx="7.955" cy="7.955" r="7.205" fill="none"/>
+    </g>
+    <path id="Tracé_3" data-name="Tracé 3" d="M0,0V3.712" transform="translate(16.481 16.481) rotate(-45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -2,8 +2,8 @@ name: food_line
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
-# pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -15,35 +15,84 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_svg:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  flutter_svg: 0.19.3
-  carousel_slider:
-  syncfusion_flutter_charts:
-  scrollable_positioned_list:
-  percent_indicator:
+  cupertino_icons: ^1.0.4
+  firebase_messaging: ^11.2.3
+  flutter_local_notifications: 
+  firebase_core:
+  screenshot:
+  overlay_support:
+  flutter_screenutil: ^5.0.3
+  get_utils: ^3.13.0
+  flutter_riverpod: ^1.0.3
+  page_transition:
+  provider:
+  
+  flutter_sms: ^2.3.2
+  http:
+  dio:
+  lottie:
+  intl:
+  flutter_phone_direct_caller: ^2.1.0
+  group_radio_button:
+  flutter_overlay_loader:
+  shared_preferences: ^2.0.12
+  loading_indicator:
+  fluttertoast:
+  toast:
+  url_launcher: ^6.0.18
+  pinput: ^1.2.2
+  google_maps_flutter:
+  google_sign_in: ^5.1.1  
+  flutter_facebook_auth: ^3.5.7
+  bubble_tab_indicator:
+  custom_radio_grouped_button: ^2.1.1
+  dotted_border: 
+  flutter_stripe: ^2.2.0 
+  qr_flutter: ^4.0.0
+  mask_text_input_formatter: ^2.1.0
+  firebase_analytics:
+  cached_network_image: ^3.2.0
+
+   
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.4
+dependency_overrides:
+  firebase_messaging_platform_interface: ^3.1.6
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "icons/icon.png" # your full path in assets directory
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -51,8 +100,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
-  #   - images/a_dot_ham.jpeg
+    - images/
+    - icons/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -65,15 +115,42 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+ 
+
   fonts:
-    - family: SegoeUI
+    - family: Roboto
       fonts:
-        - asset: assets/fonts/Segoe UI.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 800
+        - asset: fonts/Roboto-Light.ttf
+          weight: 200
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 700
+
+    - family: Segoe
+      fonts:
+        - asset: fonts/Segoe_UI.ttf
+        - asset: fonts/Segoe_UI_Bold.ttf
+          weight: 800
+    - family: Amaranth
+      fonts:
+        - asset: fonts/Amaranth-Regular.ttf
+         
+          
+
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro.ttfx
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

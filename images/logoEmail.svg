@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="197" height="86" viewBox="0 0 197 86">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1981" data-name="Rectangle 1981" width="107" height="86" transform="translate(88 366)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1982" data-name="Rectangle 1982" width="90" height="86" transform="translate(195 366)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_10451" data-name="Groupe 10451" transform="translate(190 -366)">
+    <g id="Groupe_de_masques_2" data-name="Groupe de masques 2" transform="translate(-278)" clip-path="url(#clip-path)">
+      <text id="Food" transform="translate(97 419)" fill="#fff" font-size="49" font-family="Amaranth-Regular, Amaranth"><tspan x="0" y="0">Food</tspan></text>
+    </g>
+    <g id="Groupe_de_masques_3" data-name="Groupe de masques 3" transform="translate(-278)" clip-path="url(#clip-path-2)">
+      <text id="Line" transform="translate(198 419)" fill="#4b9d22" font-size="49" font-family="Amaranth-Regular, Amaranth"><tspan x="0" y="0">Line</tspan></text>
+    </g>
+  </g>
+</svg>

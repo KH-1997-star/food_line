@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061963115945",
+    "project_id": "foodline-30462",
+    "storage_bucket": "foodline-30462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061963115945:android:f07339a32710f84be268b8",
+        "android_client_info": {
+          "package_name": "com.app.food_line"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061963115945-9ocr5mun30son9tb5f28r3854ueat174.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhjGU6kmvjwu8asigbpzjXwi7eJyJ87jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061963115945-9ocr5mun30son9tb5f28r3854ueat174.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
